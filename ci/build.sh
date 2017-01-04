@@ -12,7 +12,7 @@ mvn clean compile
 #mvn package
 
 #mvn install
-mvn package
+#mvn package
 find .
 #java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplication
 #mvn test
