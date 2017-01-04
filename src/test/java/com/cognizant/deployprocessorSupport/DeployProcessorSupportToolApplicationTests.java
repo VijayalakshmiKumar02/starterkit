@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DeployProcessorSupportToolApplication.class)
-/*public class DeployProcessorSupportToolApplicationTests {
+public class DeployProcessorSupportToolApplicationTests {
 
-	@Test
+/*	@Test
 	public void contextLoads() {
 	}
-
-}*/
+*/
+}
