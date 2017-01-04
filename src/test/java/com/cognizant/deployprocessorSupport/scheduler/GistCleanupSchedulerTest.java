@@ -10,14 +10,15 @@ import com.cognizant.deployprocessorSupport.DeployProcessorSupportToolApplicatio
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DeployProcessorSupportToolApplication.class)
-/*public class GistCleanupSchedulerTest {
+public class GistCleanupSchedulerTest {
 
-	@Autowired
+/*	@Autowired
 	private GistCleanupScheduler gistCleanupScheduler;
 
 	@Test
 	public void directoryCleanupSchedulerTest() {
 		gistCleanupScheduler.cronHandlerGIST();
 	}
+	*/
 
-}*/
+}
