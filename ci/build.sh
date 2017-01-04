@@ -2,11 +2,11 @@
 
 set -e -x
 echo "making directory"
-mkdir resource-app
+mkdir resource-app1
 echo "changing directory"
-cd resource-app
+cd resource-app1
 echo "git clone"
-git clone starterkit resource-app
+git clone starterkit resource-app1
 
 #mvn clean compile
 #mvn package
