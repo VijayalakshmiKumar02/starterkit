@@ -2,9 +2,11 @@
 
 set -e -x
 
-git clone starterkit resource-app
+mkdir resource-app
 
 cd resource-app
+
+git clone starterkit resource-app
 
 #mvn clean compile
 #mvn package
