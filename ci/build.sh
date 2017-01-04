@@ -8,10 +8,10 @@ echo "changing directory"
 echo "git clone"
 git clone starterkit resource-app1
 cd resource-app1
-#mvn clean compile
+mvn clean compile
 #mvn package
 
-mvn install
+#mvn install
 mvn package
 find .
 #java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplication
