@@ -9,7 +9,7 @@ echo "git clone"
 git clone starterkit resource-app1
 cd resource-app1
 mvn clean compile
-#mvn package
+mvn package
 
 #mvn install
 #mvn package
