@@ -17,7 +17,7 @@ public class DirectoryCleanupSchedulerTest {
 
 	@Test
 	public void directoryCleanupSchedulerTest() {
-		gistCleanupScheduler.cronHandlerGIST();
+		//gistCleanupScheduler.cronHandlerGIST();
 	}
 	
 
