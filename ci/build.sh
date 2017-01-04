@@ -9,7 +9,7 @@ cd resource-app
 #mvn clean compile
 #mvn package
 
-#mvn install
+mvn install
 mvn package
 
 #java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplication
