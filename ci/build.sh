@@ -11,7 +11,7 @@ cd resource-app
 
 mvn install
 mvn package
-
+find .
 #java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplication
 #mvn test
 echo "done testing"
