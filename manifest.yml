@@ -1,0 +1,16 @@
+applications:
+- name: SupportTool-beta
+  memory: 600M
+  instances: 1
+  no-route: true
+  path: ./target/DeployProcessorSupportTool.jar
+  env:   
+    logger.select: GrayLog
+    gist.cleanFiles.hours: 12
+    gist.cleanDeployProcessor.filename: bp_status.json
+    gist.cleanMicroService.filename: microservice_status.json
+    gist.connection.frequency: 5
+    gist.connection.delay: 15000 
+    gist.username: BPAPIServerDev
+    gist.password: api4dev$
+    grayLog.url: http://loggerservice.apps.digifabric.cognizant.com/saveLog
