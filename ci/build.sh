@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 set -e -x
-vagrant ssh
 mkdir home/vagrant/test
 cd home/vagrant/test
 var=$(pwd)
