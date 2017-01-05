@@ -1,4 +1,5 @@
 ---
+platform: linux
 run:
   path: sh
   args: [starterkit/ci/jarbuild.sh]
