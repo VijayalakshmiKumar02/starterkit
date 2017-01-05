@@ -13,4 +13,4 @@ outputs:
   
 run:
  path: sh
- args: [starterkit/build.sh]
+ args: [starterkit/ci/build.sh]
