@@ -3,7 +3,7 @@ applications:
   memory: 600M
   instances: 1
   no-route: true
-  #path: ./starterkit/target/DeployProcessorSupportTool.jar
+  path: ./target/DeployProcessorSupportTool.jar
   env:   
     logger.select: GrayLog
     gist.cleanFiles.hours: 12
