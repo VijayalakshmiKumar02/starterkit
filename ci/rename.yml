@@ -1,0 +1,19 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+    tag: latest
+
+inputs:
+ 
+  - name: starterkit
+
+outputs:
+  - name: target
+    path: target
+run:
+  path: mv
+  args: ["/tmp/build/1b19bdd8/starterkit/target/DeployProcessorSupportTool.jar", "/tmp/build/put/starterkit/target/DeployProcessorSupportTool.jar"]
+
