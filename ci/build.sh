@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 set -e -x
-mkdir tmp/build/jarfolder
-cd tmp/build/jarfolder
+mkdir jarfolder
+cd jarfolder
 var=$(pwd)
 echo "The current working directory $var."
 echo "making directory"
