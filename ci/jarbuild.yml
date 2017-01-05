@@ -1,5 +1,10 @@
 ---
 platform: linux
+inputs:
+  - name: resource-app
+  
+outputs:
+  - name: resource-app1
 run:
   path: sh
   args: [starterkit/ci/jarbuild.sh]
