@@ -8,7 +8,7 @@ image_resource:
 
 inputs:
  
-  - name: starterkit
+  - name: resource-app
 
 outputs:
   - name: target
