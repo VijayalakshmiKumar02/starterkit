@@ -9,8 +9,8 @@ inputs:
   - name: starterkit
   
 outputs:
-  - name: resource-app
+  - name: starterkit
   
 run:
  path: mvn
- args: ["-f", "starterkit/pom.xml", "-DskipTests=true","-DoutputDirectory=resource-app","package"]
+ args: ["-f", "starterkit/pom.xml", "-DskipTests=true","-DoutputDirectory=starterkit","package"]
