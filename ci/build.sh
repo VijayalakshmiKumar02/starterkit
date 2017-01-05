@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 set -e -x
-mkdir home/vagrant/test
-cd home/vagrant/test
+mkdir test
+cd test
 var=$(pwd)
 echo "The current working directory $var."
 echo "making directory"
