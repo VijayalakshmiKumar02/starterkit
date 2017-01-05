@@ -12,5 +12,5 @@ outputs:
   - name: resource-app
   
 run:
-path: mvn
-args: ["starterkit/pom.xml", "-DskipTests=true"]
+path: sh
+args: [starterkit/ci/build.sh]
