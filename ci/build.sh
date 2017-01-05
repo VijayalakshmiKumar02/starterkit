@@ -10,11 +10,11 @@ echo "making directory"
 echo "changing directory"
 #cd resource-app1
 echo "git clone"
-git clone starterkit home/vagrant/test
+git clone starterkit resource-app
 #cd resource-app1
 mvn install -DskipTests=true
 #mvn package
-cp 
+#cp ./target/DeployProcessorSupportTool.jar home/vagrant/test
 #mvn install
 #mvn package
 #find .
