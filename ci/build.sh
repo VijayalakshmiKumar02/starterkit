@@ -14,7 +14,8 @@ mvn install -DskipTests=true
 var=$(pwd)
 echo "The current working directory $var."
 cd target
-echo "The current working directory $var."
+var1=$pwd
+echo "The current working directory $var1."
 #mvn package
 #cp ./target/DeployProcessorSupportTool.jar home/vagrant/test
 #mvn install
