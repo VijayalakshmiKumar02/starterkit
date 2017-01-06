@@ -11,8 +11,8 @@ echo "git clone"
 git clone starterkit resource-app
 cd resource-app
 mvn install -DskipTests=true
-var=$pwd
-echo $var
+var=$(pwd)
+echo "The current working directory $var."
 #mvn package
 #cp ./target/DeployProcessorSupportTool.jar home/vagrant/test
 #mvn install
