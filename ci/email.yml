@@ -6,12 +6,13 @@ image_resource:
 
 inputs:
   - name: starterkit
+outputs:
+  - name: email-out
 
 run:
   path: sh
   args: [starterkit/ci/email.sh]
-outputs:
-  - name: email-out
+
 params:
   file_to_hash: starterkit/LICENSE
   output_subject_file: generated-subject
