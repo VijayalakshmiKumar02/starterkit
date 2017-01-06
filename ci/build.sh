@@ -8,17 +8,17 @@ echo "making directory"
 echo "changing directory"
 #cd resource-app1
 echo "git clone"
-git clone starterkit resource-app
-cd resource-app
+#git clone starterkit resource-app
+
 mvn install -DskipTests=true
-var=$(pwd)
-echo "The current working directory $var."
-cd target
-var1=$(pwd)
-echo "The current working directory $var1."
-for entry in `ls $target`; do
-    echo $entry
-done
+#var=$(pwd)
+#echo "The current working directory $var."
+#cd target
+#var1=$(pwd)
+#echo "The current working directory $var1."
+#for entry in `ls $target`; do
+   # echo $entry
+#done
 
 
 #mvn package
