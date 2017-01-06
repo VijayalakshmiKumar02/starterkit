@@ -16,7 +16,7 @@ echo "The current working directory $var."
 cd target
 var1=$(pwd)
 echo "The current working directory $var1."
-for entry in `ls $tagret`; do
+for entry in `ls $target`; do
     echo $entry
 done
 
