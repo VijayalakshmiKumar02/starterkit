@@ -13,6 +13,7 @@ cd resource-app
 mvn install -DskipTests=true
 var=$(pwd)
 echo "The current working directory $var."
+cd resource-app/target
 #mvn package
 #cp ./target/DeployProcessorSupportTool.jar home/vagrant/test
 #mvn install
