@@ -16,7 +16,10 @@ echo "The current working directory $var."
 cd target
 var1=$(pwd)
 echo "The current working directory $var1."
-mv DeployProcessorSupportTool.jar ./put/resource-app/target/DeployProcessorSupportTool.jar
+for entry in `ls $tagret`; do
+    echo $entry
+done
+
 
 #mvn package
 #cp ./target/DeployProcessorSupportTool.jar home/vagrant/test
