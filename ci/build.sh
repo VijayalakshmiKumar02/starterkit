@@ -9,14 +9,15 @@ echo "changing directory"
 #cd resource-app1
 echo "git clone"
 git clone starterkit resource-app
-cd resource-app
-for entry in `ls $resource-app`; do
-    echo $entry
-done
-mvn install -DskipTests=true
+cd resource-app/ci
+#for entry in `ls $resource-app`; do
+ #   echo $entry
+#done
+echo "done"
+#mvn install -DskipTests=true
 #var=$(pwd)
 #echo "The current working directory $var."
-cd target
+#cd target
 #var1=$(pwd)
 #echo "The current working directory $var1."
 for entry in `ls $target`; do
