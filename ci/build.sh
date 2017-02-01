@@ -10,12 +10,13 @@ echo "changing directory"
 echo "git clone"
 git clone starterkit resource-app
 cd resource-app
-mvn install sonar:sonar
+#mvn install sonar:sonar
 #for entry in `ls $resource-app`; do
  #   echo $entry
 #done
 echo "done"
-#mvn install -DskipTests=true
+mvn install -DskipTests=true
+mvn sonar:sonar
 #var=$(pwd)
 #echo "The current working directory $var."
 #cd target
