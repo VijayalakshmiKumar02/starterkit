@@ -9,7 +9,8 @@ echo "changing directory"
 #cd resource-app1
 echo "git clone"
 git clone starterkit resource-app
-cd resource-app/ci
+cd resource-app
+mvn install sonar:sonar
 #for entry in `ls $resource-app`; do
  #   echo $entry
 #done
