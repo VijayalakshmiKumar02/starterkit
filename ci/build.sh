@@ -15,7 +15,7 @@ cd resource-app
  #   echo $entry
 #done
 #echo "done"
-mvn install sonar:sonar
+mvn sonar:sonar
 
 #var=$(pwd)
 #echo "The current working directory $var."
