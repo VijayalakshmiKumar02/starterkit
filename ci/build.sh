@@ -15,7 +15,8 @@ cd resource-app
  #   echo $entry
 #done
 #echo "done"
-mvn sonar:sonar -Dsonar.host.url=https://sonarqube.mvp2.cognizantone.org:9000
+docker run -d --name sonarqube -p docker run -d --name sonarqube -p
+mvn sonar:sonar -Dsonar.host.url=docker run -d --name sonarqube -p
 
 #var=$(pwd)
 #echo "The current working directory $var."
