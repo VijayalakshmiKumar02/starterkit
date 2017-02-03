@@ -15,7 +15,7 @@ cd resource-app
  #   echo $entry
 #done
 #echo "done"
-mvn sonar:sonar -Dsonar.host.url=https://sonarqube.mvp2.cognizantone.org
+mvn sonar:sonar -Dsonar.host.url=https://sonarqube.mvp2.cognizantone.org:9000
 
 #var=$(pwd)
 #echo "The current working directory $var."
