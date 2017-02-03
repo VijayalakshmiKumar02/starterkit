@@ -4,27 +4,27 @@ set -e -x
 #mkdir jarfolder
 #cd jarfolder
 #echo "The current working directory $var."
-echo "making directory"
-echo "changing directory"
+#echo "making directory"
+#echo "changing directory"
 #cd resource-app1
-echo "git clone"
+#echo "git clone"
 git clone starterkit resource-app
 cd resource-app
 #mvn install sonar:sonar
 #for entry in `ls $resource-app`; do
  #   echo $entry
 #done
-echo "done"
-mvn install -DskipTests=true
+#echo "done"
+mvn install 
 mvn sonar:sonar
 #var=$(pwd)
 #echo "The current working directory $var."
 #cd target
 #var1=$(pwd)
 #echo "The current working directory $var1."
-for entry in `ls $target`; do
-    echo $entry
-done
+#for entry in `ls $target`; do
+ #   echo $entry
+#done
 
 
 #mvn package
@@ -34,4 +34,4 @@ done
 #find .
 #java de/bitkings/nitram509/ConcourseJavaMavenTestPrjApplication
 #mvn test
-echo "done testing"
+#echo "done testing"
